@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Button from '@material-ui/core/Button';
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -10,21 +11,26 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <main className={styles.main}>
-            <h1>Welcome to Andrew's Lawrence Hill Project!</h1>
+            <div className={styles.titlelawrence}>
+                <h1>Welcome to Lawrence Hill website!</h1>
+                <h2>Made by Andrew Lee in Next.JS</h2>
+            </div>
             <img src="https://www.uoguelph.ca/arts/sites/default/files/styles/large/public/Lawrence-Hill-380.jpg?itok=JdSI90NJ" height="30%" width="30%"/>
             <br/>
-            <Button variant="contained" color="primary">Hello world</Button>
+            <Link href="/childhood-adulthood">
+            <Button variant="contained" color="primary">Childhood and young adulthood</Button>
+            </Link>
+            <br/>
+            <Link href="/career">
+            <Button variant="contained" color="primary">Career</Button>
+            </Link>
         </main>
 
         <footer className={styles.footer}>
-            <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
+            <p>
             Powered by{' '}
-            Next.JS, Netlify & alee14.me
-            </a>
+            Next.JS & Netlify. {' '}
+            <a href="https://alee14.me" target="_blank">Website by Andrew Lee</a></p>
         </footer>
     </div>
   )
