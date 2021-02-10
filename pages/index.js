@@ -13,6 +13,7 @@ export default function Home() {
         <main className={styles.main}>
             <div className={styles.titlelawrence}>
                 <h1>Welcome to Lawrence Hill website!</h1>
+                <img src="/Alee.svg" height="20%" width="20%"/>
                 <h2>Made by Andrew Lee in Next.JS</h2>
             </div>
             <img src="https://www.uoguelph.ca/arts/sites/default/files/styles/large/public/Lawrence-Hill-380.jpg?itok=JdSI90NJ" height="30%" width="30%"/>
