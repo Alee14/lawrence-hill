@@ -11,6 +11,7 @@ export default function Career() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <main className={styles.main}>
+            <h1>Career</h1>
             <Link href="/">
                 <Button variant="contained" color="primary">Back to home</Button>
             </Link>

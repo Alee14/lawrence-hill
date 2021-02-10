@@ -11,10 +11,16 @@ export default function ChildhoodAdulthood() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <main className={styles.main}>
+          <h1>Childhood & Young Adulthood</h1>
             <Link href="/">
                 <Button variant="contained" color="primary">Back to home</Button>
             </Link>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lawrence was born on January 1st, 1957 on Newmarket, Ontario. His father immigrated to Canada after he was married in 1953.</p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/NewmarketOTH.jpg" height="20%" width="20%"/>
+          <p>His grandfather and great grandfather were university graduates and ministers of the African Methodist Episcopal Church.</p>
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Amesheild.svg/1200px-Amesheild.svg.png" height="10%" width="10%"/>
+          <p>His mother was a civil rights activist in D.C and she also came from a republican family.</p>
+          <p>Lawrence was influenced by his parent’s work by the humans rights movement.</p>
         </main>
 
         <footer className={styles.footer}>
