@@ -1,11 +1,12 @@
 import Head from 'next/head'
+import Container from '@material-ui/core/Container';
 import styles from '../styles/Home.module.css'
 import Button from '@material-ui/core/Button';
 import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <Container>
       <Head>
         <title>Lawrence Hill Project</title>
         <link rel="icon" href="/favicon.ico" />
@@ -33,6 +34,6 @@ export default function Home() {
             Next.JS & Netlify. {' '}
             <a href="https://alee14.me" target="_blank">Website by Andrew Lee</a></p>
         </footer>
-    </div>
+    </Container>
   )
 }

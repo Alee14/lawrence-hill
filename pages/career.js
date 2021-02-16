@@ -1,11 +1,12 @@
 import Head from 'next/head'
+import Container from '@material-ui/core/Container';
 import styles from '../styles/Page.module.css'
 import Link from 'next/link'
 import Button from '@material-ui/core/Button'
 
 export default function Career() {
   return (
-    <div className={styles.container}>
+    <Container>
       <Head>
         <title>Lawrence Hill Project</title>
         <link rel="icon" href="/favicon.ico" />
@@ -24,6 +25,6 @@ export default function Career() {
             Next.JS & Netlify. {' '}
             <a href="https://alee14.me" target="_blank">Website by Andrew Lee</a></p>
         </footer>
-    </div>
+    </Container>
   )
 }
