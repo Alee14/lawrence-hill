@@ -16,7 +16,12 @@ export default function Career() {
             <Link href="/">
                 <Button variant="contained" color="primary">Back to home</Button>
             </Link>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>He wrote 10 books in fiction and non-fiction.</p>
+            <img src="https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/vhYAAOSwuspY9qNg/$_27.JPG" width="20%" height="20%" />
+            <p>In 2005 he won his first award which is a National Magazine Award for his article which is “Is Africa’s Pain Black America’s Burden?” and it’s published in The Walrus.</p>
+            <img src="http://img.src.ca/2016/03/10/635x357/160310_fq8v8_rci-books_sn635.jpg" width="30%" height="30%" />
+            <p>His novel in 2007, The Book Of Negroes brought his book attention to the public. That novel also won several awards, including The Rogers/Writers’ Trust Fiction Prize, both CBC Radio’s Canada Reads and Radio Canada’s Le Combat des Livres, and The Commonwealth Prize for Best Book.</p>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51WAj6VsbGL.jpg" width="20%" height="20%" />
         </main>
 
         <footer className={styles.footer}>

@@ -14,10 +14,10 @@ export default function Home() {
         <main className={styles.main}>
             <div className={styles.titlelawrence}>
                 <h1>Lawrence Hill</h1>
-                <img src="/Alee.svg" height="20%" width="20%"/>
-                <h2>Made by Andrew Lee in Next.JS</h2>
+                <img src="https://www.uoguelph.ca/arts/sites/default/files/styles/large/public/Lawrence-Hill-380.jpg?itok=JdSI90NJ" height="80%" width="80%"/>
+                <h2>Made by Andrew Lee</h2>
             </div>
-            <img src="https://www.uoguelph.ca/arts/sites/default/files/styles/large/public/Lawrence-Hill-380.jpg?itok=JdSI90NJ" height="30%" width="30%"/>
+            <img src="/Alee.svg" height="10%" width="10%"/>
             <br/>
             <Link href="/childhood-adulthood">
             <Button variant="contained" color="primary">Childhood and young adulthood</Button>
@@ -31,7 +31,7 @@ export default function Home() {
         <footer className={styles.footer}>
             <p>
             Powered by{' '}
-            Next.JS & Netlify. {' '}
+            React, Next.JS & Netlify. {' '}
             <a href="https://alee14.me" target="_blank">Website by Andrew Lee</a></p>
         </footer>
     </Container>
