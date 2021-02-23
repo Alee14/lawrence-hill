@@ -28,7 +28,7 @@ export default function ChildhoodAdulthood() {
         <footer className={styles.footer}>
             <p>
             Powered by{' '}
-            Next.JS & Netlify. {' '}
+            React, Next.JS & Netlify. {' '}
             <a href="https://alee14.me" target="_blank">Website by Andrew Lee</a></p>
         </footer>
     </Container>
